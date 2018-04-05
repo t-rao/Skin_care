@@ -4,33 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
-  <section class="hero">
-    <img src="images/hero2x.jpg" alt="heroimage" />
-  </section>
-
-  <section class="section-01">
-    <div class="container">
-      <h2>本格セルフメディカルスキンケア<span><img src="images/darrow.png" alt="arrow"/></span></h2>
-      <div class="skindiff">
-        <img src="images/skin_diff.png" alt="skin_diff">
+  <section class="container">
+    <div class="row">
+      <div class="col">
+        <img src="images/hero.jpg" alt="" class="img-fluid">
       </div>
     </div>
   </section>
+<section class="container section-01">
+  <div class="row">
+    <div class="col text-center"><h2>本格セルフメディカルスキンケア<span><img src="images/darrow.png" alt="arrow"/></span></h2></div>
+  </div>
+  <div class="row">
+    <div class="col text-center">
+      <img src="images/skin_diff.png" alt="skin_diff" class="img-fluid">
+    </div>
+  </div>
+</section>
+
 
   <section class="section-02">
-    <div class="container whitebg">
-      <div id="heading">
-        <h2>お肌のお悩み</h2>
-        <img src="images/cr_lady.png" alt="" />
+    <div class="container pt-3">
+      <div class="whitebox">
+      <div class="row justify-content-md-center">
+        <div class="col offset-1 offset-md-3 ">
+          <h2>お肌のお悩み</h2>
+          <img src="images/cr_lady.png" alt="" />
+        </div>
       </div>
-      <h3>あなたはいくつ当てはまりますか？</h3>
+      <div class="row">
+        <div class="col">
+          <h3>あなたはいくつ当てはまりますか？</h3>
+        </div>
+      </div>
+
       <div id="list">
         <ul>
           <li>何年も消えない<span>ニキビ跡がある</span></li>
@@ -41,39 +55,49 @@
         </ul>
       </div>
     </div>
+    </div>
   </section>
 
   <section class="section-03">
     <div class="container">
-      <h2>１つでも当てはまったら…</h2>
-      <h3 class="gray">スキンケアの見直しが必要です</h3>
-      <div class="spray_section">
-        <img src="images/spray01.png" alt="spray">
-        <div id="info_pro">
+      <div class="row">
+        <div class="col text-center"><h2>１つでも当てはまったら…</h2></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col ">
+          <h3 class="gray">スキンケアの見直しが必要です</h3>
+        </div>
+      </div>
+      <div class="row mt80">
+        <div class="col-2"><img src="images/spray01.png" alt="spray" id="spray"></div>
+        <div id="info_pro" class="col-9 offset-1">
           <h2>1クール6ヵ月の<br/>セルフメディカルスキンケアで</h2>
           <h3>長年悩み続けていた<br>お肌のお悩みを解消!!</h3>
         <div class="mt-80">
           <p>Belle Blanc ベルブラン</p>
             <p>30ml(30日分)</p>
         </div>
-
-        </div>
-      </div>
     </div>
-    <div id="bottom_gray"> <img src="/images/Rectanglebg.png" alt=""></div>
+  </div>
+</div>
+<div id="bottom_gray"></div>
   </section>
 
-  <section class="section-04 clear">
+  <section class="section-04">
     <div class="container">
-      <h2>まずは、有効成分を肌の奥に届ける事を考えましょう</h2>
-      <p>ニキビシミでお悩みの方は肌ステージが<br>レベルⅢ~Ⅳまで進んでいることがとても多いです。</p>
-      <p>レベルⅢ~Ⅳまで進んでしまうと肌全体が硬く、<br>有効成分が浸透しにく状態の肌になっています。</p>
-      <p>有効成分が浸透しないと肌に必要不可欠な成分を<br>与えることが出来なくなり肌状態は悪くなる一方、</p>
-      <p>そのため、永続的になやまされるニキビシミになっていきます。</p>
+      <div class="row">
+        <div class="col">
+          <h2>まずは、有効成分を肌の奥に届ける事を考えましょう</h2>
+          <p>ニキビシミでお悩みの方は肌ステージが<br>レベルⅢ~Ⅳまで進んでいることがとても多いです。</p>
+          <p>レベルⅢ~Ⅳまで進んでしまうと肌全体が硬く、<br>有効成分が浸透しにく状態の肌になっています。</p>
+          <p>有効成分が浸透しないと肌に必要不可欠な成分を<br>与えることが出来なくなり肌状態は悪くなる一方、</p>
+          <p>そのため、永続的になやまされるニキビシミになっていきます。</p>
+        </div>
+      </div>
 
-      <div>
-        <div><img src="images/skinspeciallist.jpg" alt="skinspeciallist"></div>
-        <div>
+      <div class="row">
+        <div class="col-4"><img src="images/skinspeciallist.jpg" alt="skinspeciallist" id="skinspacpic"></div>
+        <div class="col-8">
           <h3>Specialist of Skin Yumikinoshita</h3>
           <h2><span>美容皮膚科医</span><br>木下裕美先生</h2>
           <ul>
@@ -85,12 +109,13 @@
           </ul>
         </div>
       </div>
-      <div>
-        <img src="images/skin_02.jpg" alt="skin">
+      <div class="row">
+        <div class="col"><img src="images/skin_02.jpg" alt="skin"  id="bio_skin"></div>
         <p>悪循環が繰り返され続けると永久的に悩まされるニキビシミになってしまうかも…</p>
       </div>
     </div>
   </section>
+<!--
   <section class="section-05">
     <div class="container">
       <div>
@@ -280,7 +305,7 @@
   <section class="hero" >
     <img src="images/hero_02.jpg" alt="">
     <img src="images/hero_03.jpg" alt="">
-  </section>
+  </section> -->
 
 </body>
 
